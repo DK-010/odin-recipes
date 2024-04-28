@@ -3,20 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Project</title>
+    <title>Odin Recipes</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Odin Recipes</h1>
-    <ul>
-        <img src="bangwings.webp" alt="bang bang wings" height="280" width="340">
-        <h3><li><a href="recipes/Bang Bang Wings.html" target="_blank">Bang Bang Wings</a></li></h3>
+    <!--Website header-->
+    <div class="header">
+        <div class="nav-left">
+            <a href="#" class="nav-items">Home</a>
+            <a href="about.html" target="_blank" class="nav-items">About Us</a>
+       </div>
+        <div class="logo">
+            <a href="index.html" target="_blank" class="logo-link">
+                <img src="logo.png" alt="Odin Recipes Logo" class="logo-img">
+                <span class="logo-text">Odin Recipes</span>
+             </a>
+            <!--<h1>Odin Recipes</h1>-->
+        </div>
+        <div class="nav-right">
+            <a href="#" class="nav-items">Login</a> 
+            <a href="#" class="nav-items">Sign Up</a>
+        </div>   
+    </div>
     
-        <img src="goulash.webp" alt="american goulash" height="280" width="340">
-        <h3><li><a href="recipes/american goulash.html" target="_blank">American Goulash</a></li></h3>
-    
-        <img src="chicken pasta.webp" alt="skillet chicken pasta" height="280" width="340">
-        <h3><li><a href="recipes/skillet chicken pasta.html" target="_blank">Skillet Chicken Pasta</a></li></h3>
-    
-    </ul>
+    <!-- Greetings -->
+
+    <div class="greeting">
+        <img src="welcoming.jpeg" alt="welcoming" class="welcoming-img">
+        <div class="welcoming">
+            <h1>Welcome, Chefs!</h1>
+            <p>Join us on a culinary journey where passionate chefs from around the globe come together to share their delicious recipes and expert guidance. At Odin Recipes, we're more than a community; we're a family of chefs and learners, united by our love for creating and savoring exquisite dishes. Explore, learn, and create memorable meals with us!</p>
+        </div>
+    </div>
+
+    <!--Recipe section-->
+
+    <div class="content">
+        <ul class="recipes-list">
+            <li class="recipe-item">
+                <a href="recipes/Bang Bang Wings.html" target="_blank">
+                    <img src="bangwings.webp" alt="bang bang wings" class="recipe-image">
+                    <h3><a href="recipes/Bang Bang Wings.html" target="_blank" class="recipe-link">Bang Bang Wings</a></h3>
+                </a>
+            </li>
+
+            <li class="recipe-item">
+                <a href="recipes/american goulash.html" target="_blank">
+                    <img src="goulash.webp" alt="american goulash" class="recipe-image">
+                    <h3><a href="recipes/american goulash.html" target="_blank" class="recipe-link">American Goulash</a></h3>
+                </a>
+            </li>
+
+            <li class="recipe-item">
+                <a href="recipes/skillet chicken pasta.html" target="_blank" class="recipe-link">
+                    <img src="chicken pasta.webp" alt="skillet chicken pasta" class="recipe-image">
+                    <h3><a href="recipes/skillet chicken pasta.html" target="_blank" class="recipe-link">Skillet Chicken Pasta</a></h3>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Footer content -->
+    <div class="footer">
+        <p>&copy; 2024 Odin Recipes. All rights reserved.</p>
+    </div>
 </body>
 </html>
