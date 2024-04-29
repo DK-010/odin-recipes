@@ -485,9 +485,11 @@ a:hover, .nav-items:hover {
     }
 }
 
-/* Recipe-1 */
+/* Recipes */
 
-.recipe-1 {
+.recipe-1,
+.recipe-2,
+.recipe-3 {
     background-color: #fff;
     color: #333;
     margin: 20px auto;
@@ -499,7 +501,9 @@ a:hover, .nav-items:hover {
     align-items: center;
 }
 
-.recipe1-img {
+.recipe1-img,
+.recipe2-img,
+.recipe3-img {
     width: 100%;
     max-height: 600px;
     overflow: hidden;
@@ -508,28 +512,38 @@ a:hover, .nav-items:hover {
     filter: brightness(80%);
 }
 
-.recipe1-img img {
+.recipe1-img,
+.recipe2-img,
+.recipe3-img img {
     width: 100%;
     height: auto;
     transition: transform 0.3s ease;
 }
 
-.recipe1-img:hover img {
+.recipe1-img,
+.recipe2-img,
+.recipe3-img:hover img {
     transform: scale(1.05);
 }
 
-.recipe1-info {
+.recipe1-info,
+.recipe2-info,
+.recipe3-info {
     width: 100%;
 }
 
-.recipe1-name {
+.recipe1-name,
+.recipe2-name,
+.recipe3-name {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 10px 0;
     text-align: center;
 }
 
-.recipe1-name h1 {
+.recipe1-name,
+.recipe2-name,
+.recipe3-name h1 {
     font-size: 1.8em;
     margin: 0;
     color: #fff;
